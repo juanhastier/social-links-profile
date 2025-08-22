@@ -61,23 +61,20 @@ main {
   background-color: #1f1f1f;
 }
 
-header {
-  margin-bottom: 27px;
-}
-
 img {
   width: 88px;
   border-radius: 50%;
 }
 
 img,
-hgroup {
-  margin-bottom: 30px;
+hgroup,
+header {
+  margin-bottom: 24px;
 }
 
 h1 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 h2 {
