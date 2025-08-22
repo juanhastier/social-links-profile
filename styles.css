@@ -105,6 +105,6 @@ li a:focus {
 
 @media screen and (max-width: 420px) {
   main {
-    padding: 25px;
+    padding: 24px;
   }
 }
