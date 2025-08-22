@@ -99,9 +99,11 @@ li a {
   background-color: var(--color-grey-700);
 }
 
-li a:active {
+li a:hover,
+li a:focus {
   color: var(--color-grey-900);
   background-color: var(--color-green);
+  outline: none;
 }
 
 @media screen and (max-width: 420px) {
