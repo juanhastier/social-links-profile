@@ -103,3 +103,9 @@ li a:active {
   color: var(--color-grey-900);
   background-color: var(--color-green);
 }
+
+@media screen and (max-width: 420px) {
+  main {
+    padding: 25px;
+  }
+}
