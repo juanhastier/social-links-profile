@@ -1,0 +1,105 @@
+/* Color palette */
+
+:root {
+  /* Background colors */
+  --color-grey-900: #141414;
+  --color-grey-800: #1f1f1f;
+  --color-grey-700: #333333;
+
+  /* Text colors */
+  --color-green: #c5f82a;
+  --color-white: white;
+}
+
+/* Font */
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+/* Reset css */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: var(--color-white);
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+/* Layout */
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  background-color: var(--color-grey-900);
+}
+
+main {
+  width: 384px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+}
+
+header {
+  margin-bottom: 27px;
+}
+
+img {
+  width: 88px;
+  border-radius: 50%;
+}
+
+img,
+hgroup {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 14px;
+  color: var(--color-green);
+}
+
+li:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+li a {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: var(--color-grey-700);
+}
+
+li a:active {
+  color: var(--color-grey-900);
+  background-color: var(--color-green);
+}
